@@ -49,6 +49,15 @@ passwd username
   ```bash
   passwd -l username
   ```
+- ** This command displays the status of a user's password.
+  ```bash
+passwd -S username
+
+The output will indicate the status in the second field:
+LK or L: The account is locked.
+PS or P: The account has a password set and is unlocked.
+NP: The account does not have a password.
+```
 - **Unlock a user account**
   ```bash
   passwd -u username
