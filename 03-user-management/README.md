@@ -49,6 +49,10 @@ passwd username
   ```bash
   passwd -l username
   ```
+- ** Check the status of a user's account**
+  ```bash
+  passwd -S username
+  ```
 - **Unlock a user account**
   ```bash
   passwd -u username
